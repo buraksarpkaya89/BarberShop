@@ -408,3 +408,114 @@ header {
     white-space: nowrap; 
 }
 
+
+/* why do us */
+
+#why-do-us{
+    height: 582px;
+    display: flex;
+    width: 100%;
+    gap: 130px;
+
+}
+#why-do-us-left{
+    display: flex;
+    position: relative;
+
+}
+
+.left-box{
+    margin-top: 128px;
+    margin-left: 155px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.right-box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 30px;
+    margin-top: 163px;
+}
+.why-do-us-box{
+    box-sizing: border-box;
+    width: 170px;
+    height: 133px;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 24px 20px 24px;
+    gap: 6px;
+
+}
+
+.number{
+    font-size: 42px;
+    color:#303030;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.plus{
+    font-size: 16px;
+    color: #FF6C00;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 4px;
+
+}
+.text{
+    font-size: 11px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+}
+
+#why-do-us-right {
+    box-sizing: border-box;
+    margin-top: 137px;
+    padding-right: 155px;
+
+}
+
+#why-do-us-right div{
+    margin: 0;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 20px;
+    color: #303030;
+    text-transform: uppercase;
+    align-items: center;
+    letter-spacing: 0.1em;
+}
+#why-do-us-right div h5{
+    font-weight: 600;
+}
+#why-do-us-right div hr{
+    width: 60px;
+    height: 0;
+    border: 1px solid #303030;
+    opacity: 0.6;
+}
+
+#why-do-us-right h2{
+    font-size: 42px;
+    font-family: "Raleway";
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    min-width: 420px;
+    margin: 0;
+    line-height: auto;
+}
+#why-do-us-right p{
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    min-width: 470px;
+    line-height: 30px;
+    color: #555555;
+
+}
