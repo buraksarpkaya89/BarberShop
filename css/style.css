@@ -10,6 +10,11 @@ ul {
     list-style-type: none;
 }
 
+h4,
+h5 {
+    margin: 0;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -317,7 +322,7 @@ header {
 #services-and-prices-prices-left {
     display: flex;
     background: linear-gradient(180deg, rgb(23, 26, 36), rgb(23, 26, 36, 0.2));
-    width:100%;
+    width: 100%;
     /* height: 180px; */
     margin-top: 46px;
     padding: 28px 42px 32px 38px;
@@ -337,10 +342,11 @@ header {
     gap: 6px;
     /* width: max-content; */
 }
-#services-and-prices-prices-left ul li div span{
+
+#services-and-prices-prices-left ul li div span {
     display: inline-block;
     width: auto;
-    white-space: nowrap; 
+    white-space: nowrap;
 }
 
 #services-and-prices-prices-left ul li div hr {
@@ -352,9 +358,10 @@ header {
 
 #services-and-prices-prices-right {
     padding: 38px;
-    
+
     /* width: 585px; */
 }
+
 #services-and-prices-prices-right ul {
     margin: 0;
     padding: 0;
@@ -367,7 +374,7 @@ header {
 
 #services-and-prices-prices-right {
     display: flex;
-    background: linear-gradient(180deg, rgb(9, 11, 19), rgba(9, 11, 19,0.2));
+    background: linear-gradient(180deg, rgb(9, 11, 19), rgba(9, 11, 19, 0.2));
     width: 100%;
     /* height: 180px; */
     margin-top: 46px;
@@ -397,48 +404,52 @@ header {
     width: 100%;
 }
 
-#services-and-prices-button{
+#services-and-prices-button {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
-#services-and-prices-prices-right ul li div span{
+
+#services-and-prices-prices-right ul li div span {
     display: inline-block;
     width: auto;
-    white-space: nowrap; 
+    white-space: nowrap;
 }
 
 
 /* why do us */
 
-#why-do-us{
+#why-do-us {
     height: 582px;
     display: flex;
     width: 100%;
     gap: 130px;
 
 }
-#why-do-us-left{
+
+#why-do-us-left {
     display: flex;
     position: relative;
 
 }
 
-.left-box{
+.left-box {
     margin-top: 128px;
     margin-left: 155px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.right-box{
+
+.right-box {
     display: flex;
     flex-direction: column;
     gap: 30px;
     margin-left: 30px;
     margin-top: 163px;
 }
-.why-do-us-box{
+
+.why-do-us-box {
     box-sizing: border-box;
     width: 170px;
     height: 133px;
@@ -451,15 +462,15 @@ header {
 
 }
 
-.number{
+.number {
     font-size: 42px;
-    color:#303030;
+    color: #303030;
     display: flex;
     flex-direction: row;
     font-weight: bold;
 }
 
-.plus{
+.plus {
     font-size: 16px;
     color: #FF6C00;
     font-weight: 600;
@@ -467,7 +478,8 @@ header {
     margin-left: 4px;
 
 }
-.text{
+
+.text {
     font-size: 11px;
     font-weight: 600;
     align-items: center;
@@ -481,7 +493,7 @@ header {
 
 }
 
-#why-do-us-right div{
+#why-do-us-right div {
     margin: 0;
     display: inline-flex;
     flex-direction: row;
@@ -491,17 +503,19 @@ header {
     align-items: center;
     letter-spacing: 0.1em;
 }
-#why-do-us-right div h5{
+
+#why-do-us-right div h5 {
     font-weight: 600;
 }
-#why-do-us-right div hr{
+
+#why-do-us-right div hr {
     width: 60px;
     height: 0;
     border: 1px solid #303030;
     opacity: 0.6;
 }
 
-#why-do-us-right h2{
+#why-do-us-right h2 {
     font-size: 42px;
     font-family: "Raleway";
     font-weight: bold;
@@ -510,7 +524,8 @@ header {
     margin: 0;
     line-height: auto;
 }
-#why-do-us-right p{
+
+#why-do-us-right p {
     font-size: 18px;
     letter-spacing: 0.02em;
     font-weight: 500;
@@ -518,4 +533,78 @@ header {
     line-height: 30px;
     color: #555555;
 
+}
+
+#our-barbers {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 130px 55px 130px 55px;
+    background-color: #F7F7F7;
+}
+
+.our-barbers-title-main {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 500;
+    height: 15px;
+}
+
+.our-barbers-title-main hr {
+    width: 60px;
+    height: 0;
+    border: 1px solid #303030;
+    opacity: 0.6;
+    margin: 0;
+}
+
+#our-barbers h2 {
+    margin-top: 20px;
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Raleway";
+    letter-spacing: 0.05em;
+    line-height: auto;
+    color: #303030;
+    margin-bottom: 0;
+
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 44px;
+    gap: 30px;
+}
+
+.image-container>div {
+    width: 370px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.name-title{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.our-barbers-image {
+    width: 370px;
+    height: 346px;
+}
+.images-barbers{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
 }
